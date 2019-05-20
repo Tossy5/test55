@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Javascript</title>
+   
+   
+</head>
+<body>
+    <script>
+window.alert("1-100の数字入力してください");
+var i;
+ var y=Math.floor(Math.random()*100);
+ y=parseInt(y);
+for(i=0;;i++){
+    var x = window.prompt("数を入力してください。");
+    if(x>y){
+        window.alert("大きい！");
+    }
+    else if(x<y){
+        window.alert("小さい！");
+    }
+    else{
+        break;
+    }
+
+}
+document.write("終了！");
+    </script>
+</body>
+</html>
